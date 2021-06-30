@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BQf-uO-TGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1584" y="1503"/>
+            <point key="canvasLocation" x="-1584.057971014493" y="1502.6785714285713"/>
         </scene>
         <!--About Body Positivity-->
         <scene sceneID="w38-rV-b8M">
@@ -85,7 +85,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Body Positivity in Action"/>
                                 <connections>
-                                    <action selector="didTapButton" destination="CHR-HA-3Ef" eventType="touchUpInside" id="xum-UW-GzH"/>
+                                    <segue destination="3Vu-8j-wYY" kind="show" id="41W-Qg-0cW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -98,6 +98,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uS0-1Z-CG5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-839.13043478260875" y="1502.6785714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MhP-qB-Mpp">
+            <objects>
+                <viewController id="3Vu-8j-wYY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QCT-QL-cJH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="g1G-mv-put"/>
+                        <color key="backgroundColor" red="0.96840971710000001" green="0.93008595709999997" blue="0.8862670064" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zCH-rG-w0G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="odi-Pt-Cu8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839" y="2159"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gyx-Fv-bq4">
+            <objects>
+                <viewController id="baE-5q-YWg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S6y-xM-mwB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wBS-fW-qM7"/>
+                        <color key="backgroundColor" red="0.97622269390000005" green="0.93014866110000005" blue="0.88234454389999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PrO-FE-slM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxH-Kr-XPi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94" y="2159"/>
         </scene>
         <!--Mental Health-->
         <scene sceneID="8Sx-Wc-AMQ">
@@ -118,7 +150,7 @@
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTapped" destination="Q09-fv-5l6" eventType="touchUpInside" id="kGd-1M-eIv"/>
+                                    <segue destination="baE-5q-YWg" kind="show" id="9zW-fb-YaY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -174,10 +206,14 @@
             <point key="canvasLocation" x="-94" y="832"/>
         </scene>
     </scenes>
+    <color key="tintColor" name="AccentColor"/>
     <resources>
         <image name="cross.fill" catalog="system" width="128" height="116"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

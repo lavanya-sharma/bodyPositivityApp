@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func didTapButton()
+    /*
+     @IBAction func didTapButton()
     {
         
         let vc = UIViewController()
@@ -32,6 +33,7 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
-
+    */
+    
 }
 
