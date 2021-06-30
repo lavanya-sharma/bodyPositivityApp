@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tXD-n6-7Eb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -8,34 +8,181 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Tab Bar Controller-->
+        <scene sceneID="LV0-PB-hTv">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bodyPositivityApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tabBarController id="tXD-n6-7Eb" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r55-uY-p1j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemGray2Color"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CxU-1M-KWK" kind="relationship" relationship="viewControllers" id="jbE-pB-wed"/>
+                        <segue destination="IEU-hy-yDZ" kind="relationship" relationship="viewControllers" id="i4u-DU-rWz"/>
+                        <segue destination="p4e-7X-zaF" kind="relationship" relationship="viewControllers" id="hT6-2F-dR8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fSQ-Kh-TzW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839" y="121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wkP-wZ-R4T">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0tJ-Pq-cfZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="CxU-1M-KWK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="house.fill" catalog="system" selectedImage="house.fill" id="OWo-E9-SOF"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fWF-V5-7cS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EXD-gP-WTl" kind="relationship" relationship="rootViewController" id="bR2-Go-vX1"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1583" y="832"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="RM2-jL-EwK">
+            <objects>
+                <viewController id="EXD-gP-WTl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bwl-4d-fzn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="a2i-Pq-jbD"/>
+                        <color key="backgroundColor" red="0.96059709790000003" green="0.93002301450000002" blue="0.89018946889999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="On0-n6-QNB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQf-uO-TGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1584" y="1503"/>
+        </scene>
+        <!--About Body Positivity-->
+        <scene sceneID="w38-rV-b8M">
+            <objects>
+                <viewController id="CHR-HA-3Ef" customClass="ViewController" customModule="bodyPositivityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GPk-OH-FRo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYs-OV-gia">
-                                <rect key="frame" x="161" y="355" width="93" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RH-Ui-3Vc">
+                                <rect key="frame" x="86" y="755" width="242" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.99899345640000003" green="0.4945685863" blue="0.4940901399" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Body Positivity in Action"/>
+                                <connections>
+                                    <action selector="didTapButton" destination="CHR-HA-3Ef" eventType="touchUpInside" id="xum-UW-GzH"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="Q2n-mT-ntO"/>
+                        <color key="backgroundColor" red="0.96059709790000003" green="0.93002301450000002" blue="0.89018946889999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="About Body Positivity" id="ZFO-d0-kZa"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uS0-1Z-CG5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-25" y="66"/>
+            <point key="canvasLocation" x="-839.13043478260875" y="1502.6785714285713"/>
+        </scene>
+        <!--Mental Health-->
+        <scene sceneID="8Sx-Wc-AMQ">
+            <objects>
+                <viewController id="Q09-fv-5l6" customClass="ViewController" customModule="bodyPositivityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3D3-SN-Unm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDf-Ud-ypd">
+                                <rect key="frame" x="72" y="753" width="271" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99897497889999998" green="0.4550393224" blue="0.47840493919999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Overcoming Obstacles">
+                                    <color key="titleColor" red="0.97199677500000004" green="0.8670569025" blue="0.86056038810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped" destination="Q09-fv-5l6" eventType="touchUpInside" id="kGd-1M-eIv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Whr-qh-8md"/>
+                        <color key="backgroundColor" red="0.95275396109999999" green="0.9221797585" blue="0.88234633210000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mental Health" id="3fQ-Y4-0vF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3e-ZD-a2E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94.20289855072464" y="1502.6785714285713"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CEL-kU-OIL">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="src-Xt-hVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="IEU-hy-yDZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="SMF-6j-spp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y2w-pl-tDC">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CHR-HA-3Ef" kind="relationship" relationship="rootViewController" id="bNn-HR-vTd"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-839" y="832"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wSG-qf-0rN">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lgC-Sd-BuI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="p4e-7X-zaF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="cross.fill" catalog="system" selectedImage="cross.fill" id="FSL-wL-vyV"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="td5-iE-N6T">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Q09-fv-5l6" kind="relationship" relationship="rootViewController" id="ypM-jo-bC9"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-94" y="832"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <image name="cross.fill" catalog="system" width="128" height="116"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
