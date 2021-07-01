@@ -74,22 +74,6 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqD-Zw-625">
-                                                <rect key="frame" x="104" y="798" width="207" height="47"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99897497889999998" green="0.4550393224" blue="0.47840493919999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Meet the Team!">
-                                                        <attributes>
-                                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <font key="NSFont" size="25" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_20200814_111118_655" translatesAutoresizingMaskIntoConstraints="NO" id="StH-OY-8kp">
                                                 <rect key="frame" x="8" y="888" width="170" height="170"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -103,7 +87,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Arb-qL-YaN">
-                                                <rect key="frame" x="189" y="874" width="203" height="206"/>
+                                                <rect key="frame" x="189" y="874" width="217" height="206"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
@@ -146,6 +130,22 @@
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqD-Zw-625">
+                                                <rect key="frame" x="104" y="819" width="207" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99897497889999998" green="0.4550393224" blue="0.47840493919999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Meet the Team!">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" size="25" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
@@ -203,6 +203,56 @@
                                     <segue destination="3Vu-8j-wYY" kind="show" id="41W-Qg-0cW"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhC-7C-4mC">
+                                <rect key="frame" x="5" y="140" width="404" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Body positivity is an issue that is often overlooked. It is a social movement that is focused on empowering individuals no matter their physical appearance. It was created to contradict the social norms that put pressure on society and people to look and appear a certain way, when in reality everyone is built differently. </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jw8-8b-N7x">
+                                <rect key="frame" x="5" y="286" width="404" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">It is extremely important because social media has provided a platform to connect young individuals, still in their formative years, to pictures of face-tuned skin and photoshopped bodies. By being exposed to unattainable beauty standards at such a early age, they begin struggling to love their body and accept themselves, which can lead to a lack of self-esteem, or worse, development of eating disorders and mental health issues. </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5M-Iy-qVE">
+                                <rect key="frame" x="5" y="485" width="404" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">For this reason it is important to spread a positive message and create a space for people to be vulnerable and honest about their physical appearance. Promoting real skin and real bodies, and body neutrality, is a big first step in the path to this acceptance.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="Optima-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20.239999771118164" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q2n-mT-ntO"/>
                         <color key="backgroundColor" red="0.99573367830000004" green="0.92647016049999997" blue="0.86273318529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -221,14 +271,168 @@
                     <view key="view" contentMode="scaleToFill" id="QCT-QL-cJH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KtK-j7-Jy3">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ere-OV-TnZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wc0-PY-oZC">
+                                                <rect key="frame" x="59" y="788" width="297" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.85565199189999996" blue="0.82743615230000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Real People, Real Bodies">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="23" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eight_col_Demi_L" translatesAutoresizingMaskIntoConstraints="NO" id="qvR-9o-AV9">
+                                                <rect key="frame" x="8" y="829" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="harry" translatesAutoresizingMaskIntoConstraints="NO" id="Q8J-Po-HG8">
+                                                <rect key="frame" x="147" y="829" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hillary_Duff-1" translatesAutoresizingMaskIntoConstraints="NO" id="XoJ-0R-b66">
+                                                <rect key="frame" x="286" y="829" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bodyposipanda" translatesAutoresizingMaskIntoConstraints="NO" id="YLp-yS-yco">
+                                                <rect key="frame" x="44" y="57" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Serena_Williams" translatesAutoresizingMaskIntoConstraints="NO" id="PWV-ZT-P24">
+                                                <rect key="frame" x="226" y="57" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grant_gustin" translatesAutoresizingMaskIntoConstraints="NO" id="CDC-5s-WLg">
+                                                <rect key="frame" x="44" y="221" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hillary_Duff" translatesAutoresizingMaskIntoConstraints="NO" id="j0H-pG-aJz">
+                                                <rect key="frame" x="226" y="221" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alicia_keys" translatesAutoresizingMaskIntoConstraints="NO" id="Gko-Lg-2Oc">
+                                                <rect key="frame" x="44" y="388" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jameela-jamil-nylon-(15)" translatesAutoresizingMaskIntoConstraints="NO" id="WX0-5g-rPW">
+                                                <rect key="frame" x="226" y="388" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sam_smith" translatesAutoresizingMaskIntoConstraints="NO" id="LKJ-OD-Arr">
+                                                <rect key="frame" x="44" y="560" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4_pic4" translatesAutoresizingMaskIntoConstraints="NO" id="J06-Rj-Ae8">
+                                                <rect key="frame" x="226" y="560" width="145" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1c-0u-Yni">
+                                                <rect key="frame" x="44" y="22" width="326" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.8556519919176625" blue="0.82743615234291479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Publicly Promoting Body Positivity">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="22" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bebe_rexha" translatesAutoresizingMaskIntoConstraints="NO" id="eQL-xG-pCV">
+                                                <rect key="frame" x="8" y="966" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ashley_graham" translatesAutoresizingMaskIntoConstraints="NO" id="wHe-KE-Swx">
+                                                <rect key="frame" x="147" y="966" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taylor_hill" translatesAutoresizingMaskIntoConstraints="NO" id="I1O-Fg-Zmu">
+                                                <rect key="frame" x="286" y="966" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="will_smith" translatesAutoresizingMaskIntoConstraints="NO" id="zmr-6G-ZgR">
+                                                <rect key="frame" x="8" y="1103" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kendall-jenner-acne" translatesAutoresizingMaskIntoConstraints="NO" id="ZqU-S9-o9P">
+                                                <rect key="frame" x="147" y="1103" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chris_pratt" translatesAutoresizingMaskIntoConstraints="NO" id="ea4-gJ-ysE">
+                                                <rect key="frame" x="286" y="1103" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comfyfat" translatesAutoresizingMaskIntoConstraints="NO" id="xnt-92-Lxv">
+                                                <rect key="frame" x="8" y="1240" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lizzo" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-SW-0rf">
+                                                <rect key="frame" x="147" y="1240" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="billie_eilish" translatesAutoresizingMaskIntoConstraints="NO" id="ytb-Fg-JPr">
+                                                <rect key="frame" x="286" y="1240" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-01 at 2.46.03 PM" translatesAutoresizingMaskIntoConstraints="NO" id="t68-bW-1PX">
+                                                <rect key="frame" x="8" y="1372" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="daniel_franzese" translatesAutoresizingMaskIntoConstraints="NO" id="pt3-my-ZTU">
+                                                <rect key="frame" x="147" y="1372" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="barbie_ferreira" translatesAutoresizingMaskIntoConstraints="NO" id="7ph-mj-Qjq">
+                                                <rect key="frame" x="286" y="1372" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.99960881469999996" green="0.91874629259999996" blue="0.84704500439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="2jA-40-Hek"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ere-OV-TnZ" firstAttribute="leading" secondItem="kv5-US-WQC" secondAttribute="leading" id="PVR-9j-bK4"/>
+                                    <constraint firstItem="Ere-OV-TnZ" firstAttribute="width" secondItem="WjB-vx-GhU" secondAttribute="width" id="Z6N-2Y-61v"/>
+                                    <constraint firstItem="Ere-OV-TnZ" firstAttribute="top" secondItem="kv5-US-WQC" secondAttribute="top" id="d4y-kl-3LA"/>
+                                    <constraint firstItem="Ere-OV-TnZ" firstAttribute="bottom" secondItem="kv5-US-WQC" secondAttribute="bottom" id="efF-4V-kY6"/>
+                                    <constraint firstItem="Ere-OV-TnZ" firstAttribute="trailing" secondItem="kv5-US-WQC" secondAttribute="trailing" id="gOX-WS-7ia"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="kv5-US-WQC"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="WjB-vx-GhU"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="g1G-mv-put"/>
                         <color key="backgroundColor" red="0.99962717290000003" green="0.92260950799999997" blue="0.85488903520000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="KtK-j7-Jy3" firstAttribute="leading" secondItem="g1G-mv-put" secondAttribute="leading" id="EhV-It-9ng"/>
+                            <constraint firstItem="KtK-j7-Jy3" firstAttribute="trailing" secondItem="g1G-mv-put" secondAttribute="trailing" id="KD7-gw-xUE"/>
+                            <constraint firstItem="KtK-j7-Jy3" firstAttribute="top" secondItem="g1G-mv-put" secondAttribute="top" id="ZVG-Gp-EcX"/>
+                            <constraint firstItem="KtK-j7-Jy3" firstAttribute="bottom" secondItem="g1G-mv-put" secondAttribute="bottom" id="b0X-nG-Qhb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zCH-rG-w0G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odi-Pt-Cu8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-839" y="2159"/>
+            <point key="canvasLocation" x="-839.13043478260875" y="2158.2589285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gyx-Fv-bq4">
@@ -323,12 +527,35 @@
     </scenes>
     <color key="tintColor" name="AccentColor"/>
     <resources>
+        <image name="4_pic4" width="500" height="500"/>
         <image name="HaleyRothbart" width="1192" height="1192"/>
+        <image name="Hillary_Duff" width="385" height="385"/>
+        <image name="Hillary_Duff-1" width="956" height="824"/>
         <image name="IMG-20210213-WA0008" width="760" height="761"/>
         <image name="IMG_20200814_111118_655" width="2824" height="2824"/>
+        <image name="Screen Shot 2021-07-01 at 2.46.03 PM" width="640" height="640"/>
+        <image name="Serena_Williams" width="2048" height="1777"/>
+        <image name="alicia_keys" width="222" height="223"/>
+        <image name="ashley_graham" width="1080" height="1080"/>
+        <image name="barbie_ferreira" width="776" height="776"/>
+        <image name="bebe_rexha" width="2000" height="1103"/>
+        <image name="billie_eilish" width="1440" height="1920"/>
+        <image name="bodyposipanda" width="603" height="603"/>
+        <image name="chris_pratt" width="610" height="615"/>
+        <image name="comfyfat" width="236" height="236"/>
         <image name="cross.fill" catalog="system" width="128" height="116"/>
+        <image name="daniel_franzese" width="1024" height="1024"/>
+        <image name="eight_col_Demi_L" width="420" height="420"/>
+        <image name="grant_gustin" width="300" height="300"/>
+        <image name="harry" width="500" height="675"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="jameela-jamil-nylon-(15)" width="720" height="720"/>
+        <image name="kendall-jenner-acne" width="480" height="601"/>
+        <image name="lizzo" width="1194" height="1194"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="sam_smith" width="3164" height="3164"/>
+        <image name="taylor_hill" width="634" height="583"/>
+        <image name="will_smith" width="565" height="565"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
