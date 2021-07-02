@@ -151,10 +151,6 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Perfect Body (4)" translatesAutoresizingMaskIntoConstraints="NO" id="BjI-sx-PwC">
-                                                <rect key="frame" x="104" y="8" width="150" height="150"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8g-yj-1vO">
                                                 <rect key="frame" x="12" y="155" width="390" height="581"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -204,6 +200,10 @@ Cg
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Perfect Body (4)" translatesAutoresizingMaskIntoConstraints="NO" id="BjI-sx-PwC">
+                                                <rect key="frame" x="132" y="22" width="150" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99962717290000003" green="0.92260950799999997" blue="0.85488903520000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -237,7 +237,7 @@ Cg
             </objects>
             <point key="canvasLocation" x="-1584.057971014493" y="1502.6785714285713"/>
         </scene>
-        <!--About Body Positivity-->
+        <!--Body Positivity-->
         <scene sceneID="w38-rV-b8M">
             <objects>
                 <viewController id="CHR-HA-3Ef" customClass="ViewController" customModule="bodyPositivityApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -329,7 +329,7 @@ Cg
                         <color key="backgroundColor" red="0.99573367830000004" green="0.92647016049999997" blue="0.86273318529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About Body Positivity" id="ZFO-d0-kZa"/>
+                    <navigationItem key="navigationItem" title="Body Positivity" id="ZFO-d0-kZa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uS0-1Z-CG5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
