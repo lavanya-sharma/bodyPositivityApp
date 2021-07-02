@@ -313,6 +313,7 @@ Cg
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sX-Lz-aip">
                                 <rect key="frame" x="129" y="144" width="267" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86643473640000002" blue="0.82300987810000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
                                     <fragment content="What is Body Positivity?">
                                         <attributes>
@@ -516,6 +517,7 @@ Cg
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENk-YV-fic">
                                 <rect key="frame" x="50" y="103" width="314" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.85565199189999996" blue="0.82743615230000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Struggling? You're Not Alone.">
                                         <attributes>
@@ -527,7 +529,7 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7r-f3-I3Z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7r-f3-I3Z">
                                 <rect key="frame" x="8" y="152" width="398" height="650"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -859,20 +861,6 @@ Cg
                                                 <rect key="frame" x="8" y="8" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RpY-On-0eY">
-                                                <rect key="frame" x="99" y="31" width="325" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="The Mind and Body are Connected.">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                            <font key="NSFont" size="19" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRJ-Gy-xNT">
                                                 <rect key="frame" x="15" y="100" width="384" height="1246"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -907,7 +895,7 @@ Cg
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Body Dysmorphia: Body Dysmorphia disorder is defined as “A mental illness involving obsessive focus on a perceived flaw in appearance.” While this disorder may take on many forms, it often includes someone who examines their figure in a mirror or compares themselves to others. It can range from a minor issue to one that could cause depression. It can stem from many things, including abuse or bullying, low self esteem, or perfectionism. 
+                                                        <string key="content">Body Dysmorphia: Defined as “a mental illness involving obsessive focus on a perceived flaw in appearance.” While this disorder may take on many forms, it often includes someone who examines their figure in a mirror or compares themselves to others. It can range from a minor issue to one that could cause depression. It can stem from many things, including abuse or bullying, low self esteem, or perfectionism. 
 </string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -936,7 +924,7 @@ Cg
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Anorexia Nervosa: Anorexia is a life threatening condition that arises from the fear of weight gain and body image. People with this disorder are often underweight but have a distorted view of their bodies. There are many types of this disease and it can vary for each person. The most common types are food restriction, compulsive exercise, and weight loss supplements. 
+                                                        <string key="content">Anorexia Nervosa: Anorexia is a life threatening condition that arises from the fear of weight gain and body image. People with this disorder are often underweight but have a distorted view of their bodies. There are many types of this disorder and it can vary for each person. The most common types are food restriction, compulsive exercise, and weight loss supplements. 
 </string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1023,7 +1011,7 @@ Cg
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Depression: Weight stigma and a negative body image can also amount to depression. This is caused when one gets upset about how they look or their inability to live up to certain beauty standards. Depression can affect one’s energy, motivation, and overall well-being. It is incredibly common and the severity can range depending on the person. </string>
+                                                        <string key="content">Depression: Weight stigma and a negative body image can also amount to depression. This is caused when one gets obsessive about how they look or their inability to live up to certain beauty standards. Depression can affect one’s energy, motivation, and overall well-being. It is incredibly common and the severity can range depending on the person. </string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <font key="NSFont" size="18" name="Optima-Regular"/>
@@ -1033,6 +1021,21 @@ Cg
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RpY-On-0eY">
+                                                <rect key="frame" x="124" y="40" width="282" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.85565199189999996" blue="0.82743615230000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="The Mind and Body are Connected.">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
