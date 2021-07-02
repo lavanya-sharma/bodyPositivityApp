@@ -849,21 +849,8 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDf-Ud-ypd">
-                                <rect key="frame" x="67" y="741" width="280" height="58"/>
-                                <color key="backgroundColor" red="0.99897497889999998" green="0.4550393224" blue="0.47840493919999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Overcoming Obstacles">
-                                    <color key="titleColor" red="0.97199677500000004" green="0.8670569025" blue="0.86056038810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="baE-5q-YWg" kind="show" id="9zW-fb-YaY"/>
-                                </connections>
-                            </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-qv-h1s">
-                                <rect key="frame" x="0.0" y="88" width="414" height="628"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-qv-h1s">
+                                <rect key="frame" x="0.0" y="88" width="414" height="651"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mhi-K8-7Ij">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
@@ -887,7 +874,7 @@ Cg
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRJ-Gy-xNT">
-                                                <rect key="frame" x="15" y="120" width="384" height="1246"/>
+                                                <rect key="frame" x="15" y="100" width="384" height="1246"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
@@ -1068,13 +1055,32 @@ Cg
                                 <viewLayoutGuide key="contentLayoutGuide" id="IG4-fs-jg8"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="xe0-26-5ed"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDf-Ud-ypd">
+                                <rect key="frame" x="67" y="747" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.99897497889999998" green="0.4550393224" blue="0.47840493919999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="FQG-A9-jhM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Overcoming Obstacles">
+                                    <color key="titleColor" red="0.97199677500000004" green="0.8670569025" blue="0.86056038810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="baE-5q-YWg" kind="show" id="9zW-fb-YaY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Whr-qh-8md"/>
                         <color key="backgroundColor" red="0.99962717290000003" green="0.92260950799999997" blue="0.85488903520000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="QDf-Ud-ypd" firstAttribute="leading" secondItem="Whr-qh-8md" secondAttribute="leading" constant="67" id="92e-8l-qPG"/>
                             <constraint firstItem="QDf-Ud-ypd" firstAttribute="top" secondItem="0jf-qv-h1s" secondAttribute="bottom" id="BnG-sT-hNp"/>
                             <constraint firstItem="0jf-qv-h1s" firstAttribute="trailing" secondItem="Whr-qh-8md" secondAttribute="trailing" id="MMO-o5-kUT"/>
                             <constraint firstItem="0jf-qv-h1s" firstAttribute="leading" secondItem="Whr-qh-8md" secondAttribute="leading" id="OO2-Bq-cWv"/>
+                            <constraint firstItem="QDf-Ud-ypd" firstAttribute="centerX" secondItem="0jf-qv-h1s" secondAttribute="centerX" id="Uls-Hw-wBo"/>
+                            <constraint firstItem="Whr-qh-8md" firstAttribute="bottom" secondItem="QDf-Ud-ypd" secondAttribute="bottom" constant="16" id="jQE-t5-D6h"/>
                             <constraint firstItem="0jf-qv-h1s" firstAttribute="top" secondItem="Whr-qh-8md" secondAttribute="top" id="uKf-Pc-WgB"/>
                         </constraints>
                     </view>
